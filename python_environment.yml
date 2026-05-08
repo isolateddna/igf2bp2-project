@@ -1,0 +1,30 @@
+name: igf2bp2-python
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.11
+  - jupyter
+  - notebook
+  - ipykernel
+
+  # Core scientific stack
+  - numpy
+  - pandas
+  - scipy
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - statsmodels
+  - networkx
+  - plotly
+
+  # Bioinformatics / analysis
+  - mygene
+  - powerlaw
+  - fastcluster
+  - adjusttext
+
+  # Utilities
+  - pip
