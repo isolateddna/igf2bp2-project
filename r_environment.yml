@@ -1,0 +1,53 @@
+name: igf2bp2-r
+channels:
+  - conda-forge
+  - bioconda
+
+dependencies:
+  - r-base=4.3
+  - r-tidyverse
+  - r-dplyr
+  - r-stringr
+  - r-ggplot2
+  - r-ggrepel
+  - r-patchwork
+  - r-gridextra
+  - r-gplots
+  - r-tibble
+  - r-openxlsx
+  - r-readxl
+
+  # RNA-seq / DE
+  - bioconductor-deseq2
+  - bioconductor-tximport
+
+  # Annotation
+  - bioconductor-annotationdbi
+  - bioconductor-org.mm.eg.db
+  - bioconductor-biomart
+
+  # WGCNA
+  - r-wgcna
+  - r-dendextend
+  - r-ggdendro
+
+  # GO / enrichment
+  - bioconductor-clusterprofiler
+  - bioconductor-enrichplot
+
+  # Rhythmicity
+  - r-rain
+  - r-metacycle
+  - r-dryr
+
+  # Genomics / ChIP-seq
+  - bioconductor-genomicranges
+  - bioconductor-gviz
+  - bioconductor-txdb.mmusculus.ucsc.mm10.knowngene
+
+  # GEO data
+  - bioconductor-geoquery
+
+  # Visualization extras
+  - r-enhancedvolcano
+  - r-ggpattern
