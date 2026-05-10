@@ -11,36 +11,39 @@ Co-expression network analysis reveals repression of Igf2bp2 by REV-ERBβ in ske
 - R-based code for ChIP-seq data plotting
 
 
-## Folder structure
+## Repository Structure
 
+```text
+.
 ├── LICENSE
 ├── python_environment.yml
 ├── Python_scripts
-│   ├── 01_Network_analysis
-│   │   └── network_analysis_turquoise.ipynb
-│   ├── 02_figure_1_and_2_panels
-│   │   └── figure_1_and_2_panels.ipynb
-│   └── 03_circadian_datasets_plotting_and_correlation
-│       └── circadian_datasets_plotting_expression_and_correlation.ipynb
+│   ├── 01_Network_analysis
+│   │   └── network_analysis_turquoise.ipynb
+│   ├── 02_figure_1_and_2_panels
+│   │   └── figure_1_and_2_panels.ipynb
+│   └── 03_circadian_datasets_plotting_and_correlation
+│       └── circadian_datasets_plotting_expression_and_correlation.ipynb
 ├── README.md
 ├── r_environment.yml
 └── R_scripts
     ├── 01_rnaseq_preprocessing
-    │   ├── RNAseq_preprocessing.md
-    │   └── salmon_quants_to_tximport_wgcna.R
+    │   ├── RNAseq_preprocessing.md
+    │   └── salmon_quants_to_tximport_wgcna.R
     ├── 02_wgcna_analysis
-    │   └── WGCNA_GSE197726.R
+    │   └── WGCNA_GSE197726.R
     ├── 03_Differential_gene_expression
-    │   └── Differential_gene_expression.R
+    │   └── Differential_gene_expression.R
     ├── 04_Differential_rhythmicity_and_rhythmicity_analysis
-    │   ├── Differential_rhythmicity_DryR.R
-    │   ├── metacycle_analysis_circadian_datasets.R
-    │   ├── rain_analysis_circadian_datasets.R
-    │   └── Rain_and_metacycle_output_heatmap.R
+    │   ├── Differential_rhythmicity_DryR.R
+    │   ├── metacycle_analysis_circadian_datasets.R
+    │   ├── rain_analysis_circadian_datasets.R
+    │   └── Rain_and_metacycle_output_heatmap.R
     ├── 05_chipseq_data_plotting
-    │   └── chip_Seq_data_plotting.R
+    │   └── chip_Seq_data_plotting.R
     └── 06_common_neighbors_and_circadian_community_GO
         └── common_neighbors_and_circadian_community_GO.R
+```
 
 ## Authors and contact information
 
